@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./scripts/index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__info">
+            <li class="header__category header__category_white"><a href="#">KYLIE</a></li>
+            <li class="header__category header__category_black"><a href="#">KYLIE COSMETICS</a></li>
+            <li class="header__category header__category_pink"><a href="#">KYLIESKIN</a></li>
+            <li class="header__category header__category_blue"><a href="#">KYLIEBABY</a></li>
+        </div>
+        <div class="header__key">
+            <div><img class="logo__kylie" src="./images/logokylie.png" alt=""></div>
+            <div class="header__list">
+                <li><a href="#">Shop Cosmetics</a></li>
+                <li><a href="#">Shop Skin</a></li>
+                <li><a href="#">Shop Baby</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Sale</a></li>
+            </div>
+            <div class="header__search">
+                <form class="form-search" action="">
+                    <input class="form-search__img" type="image" src="./images/search4.png">
+                    <input type="search" name="search" class="form-search__search" placeholder="Search">
+                </form>
+                <div class="header__content">
+                    <img class="header__content__img_flag" src="./images/flag.png" alt="">
+                    <img class="header__content__img_human" src="./images/human2.png" alt="">
+                    <div class="open-cart" id="open-cart">
+                        <div class="count__cart" id="count-cart">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main class="product">
+            <div class="product__item" data-id="1">
+                <h3 class="product__title">FOAMING FACE WASH</h3>
+                <img class="product__img" src="./images/makeup1.webp" alt="">
+                <p class="product__info"> <b>LOVE + CARE</b></p>
+                <p class="product__price">PRICE: $<span>50</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="2">
+                <h3 class="product__title">FACE MOISTURIZE</h3>
+                <img class="product__img" src="./images/makeup2.webp" alt="">
+                <p class="product__info"> <b>MOISTURIZE + SMOOTH</b></p>
+                <p class="product__price">PRICE: $<span>40</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="3">
+                <h3 class="product__title">FACE SUNSCREEN</h3>
+                <img class="product__img" src="./images/makeup3.jpg" alt="">
+                <p class="product__info"><b>PROTECT + PRIME</b></p>
+                <p class="product__price">PRICE: $<span>60</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="4">
+                <h3 class="product__title">COCONUT BODY LOTION</h3>
+                <img class="product__img" src="./images/makeup4.webp" alt="">
+                <p class="product__info"><b>MOISTURIZE + SMOOTH</b></p>
+                <p class="product__price">PRICE: $<span>90</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="5">
+                <h3 class="product__title">COCONUT BODY WASH</h3>
+                <img class="product__img" src="./images/makeup5.webp" alt="">
+                <p class="product__info"><b>CLEANSE + PAMPER</b></p>
+                <p class="product__price">PRICE: $<span>45</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="6">
+                <h3 class="product__title">FACE WASH SET </h3>
+                <img class="product__img" src="./images/makeup6.jpg" alt="">
+                <p class="product__info"><b>6 PIECE FULL SIZE REGIMEN SET</b></p>
+                <p class="product__price">PRICE: $<span>150</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="7">
+                <h3 class="product__title">BODY WASH SET</h3>
+                <img class="product__img" src="./images/makeup7.jpg" alt="">
+                <p class="product__info"><b>4 STEPS TO CLEAR SKIN</b></p>
+                <p class="product__price">PRICE: $<span>200</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="8">
+                <h3 class="product__title">PROCEDURE SET</h3>
+                <img class="product__img" src="./images/makeup8.webp" alt="">
+                <p class="product__info"><b>CLEANSE</b></p>
+                <p class="product__price">PRICE: $<span>120</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="9">
+                <h3 class="product__title">CLEANSER</h3>
+                <img class="product__img" src="./images/makeup9.jpg" alt="">
+                <p class="product__info"><b>CLEANSE</b></p>
+                <p class="product__price">PRICE: $<span>35</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="10">
+                <h3 class="product__title">SET FOR BABIES</h3>
+                <img class="product__img" src="./images/makeup10.jpg" alt="">
+                <p class="product__info"><b>HEAD-TO-TOE BATH TIME ROUTINE</b></p>
+                <p class="product__price">PRICE: $<span>190</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="11">
+                <h3 class="product__title">MAKE UP PALETTE</h3>
+                <img class="product__img" src="./images/makeup11.jpg" alt="">
+                <p class="product__info"><b>HIGHLY PIGMENTED + EASY-TO-BLEND</b></p>
+                <p class="product__price">PRICE: $<span>200</span></p>
+                <button class="product__cart">ADD TO CART</button>
+            </div>
+            <div class="product__item" data-id="12">
+                <h3 class="product__title">LIPSTICK SET</h3>
+                <img class="product__img" src="./images/makeup12.jpg" alt="">
+                <p class="product__info"><b>8-HOUR WEAR + TRUE-MATTE FINISH</b></p>
+                <p class="product__price">PRICE: $<span>300</span></p>
+                <button class=" product__cart">ADD TO CART</button>
+            </div>
+        </main>
+    </div>
+    <div class="cart" id="cart">
+        <div class="cart__main">
+            <div class="cart__content" id="cart-content"></div>
+            <span class="cart__close" id="close-cart"></span>
+            <button class="cart__clear" id="clear-cart">Clear Cart</button>
+        </div>
+    </div>
+</body>
+
+</html>
