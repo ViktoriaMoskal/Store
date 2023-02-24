@@ -77,10 +77,10 @@ export function render(cartContent, elem, addCartButtons) {
 
     let totalItems;
     if (!cartData) {
-        totalItems = '<p>Корзина пуста</p>';
+        totalItems = '<p class="basket-quilty">Корзина пуста</p>';
     } else {
         totalItems = `
-            <table>
+            <table class='cart__table'>
                 <thead>
                     <tr>
                         <th>Title</th>
@@ -97,7 +97,7 @@ export function render(cartContent, elem, addCartButtons) {
             for (let i = 0; i < cartData[itemId].length; i++) {
                 if (i === 2) {
                     totalItems += `<td>
-                    <img style="width: 30px;" src="${cartData[itemId][i]}" alt=""></td>`
+                    <img class='cart__img' src="${cartData[itemId][i]}" alt=""></td>`
                 } else {
                     totalItems += `<td>${cartData[itemId][i]}</td>`
                 }
